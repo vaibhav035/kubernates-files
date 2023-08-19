@@ -10,8 +10,7 @@ spec:
   selector:
      matchLabels:
         name: eureka-app-deploy-pod
-        app: app
-	  
+        app: app  
   template:
      metadata:
       name: eureka-app-deploy-pod
